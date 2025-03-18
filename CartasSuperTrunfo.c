@@ -40,7 +40,7 @@ printf("Nome da Cidade: %s \n", cidade);
 printf("População: %.3f \n", populacao);
 printf("Área: %.3f \n", area);
 printf("PIB: %.3f \n", pib);
-printf("Pontos Turísticos: %i", pontosturisticos);
+printf("Pontos Turísticos: %i \n", pontosturisticos);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
