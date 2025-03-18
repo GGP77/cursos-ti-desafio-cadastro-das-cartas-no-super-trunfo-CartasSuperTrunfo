@@ -7,6 +7,42 @@
 //Teste larissa
 
 int main() {
+    printf("Cartas Super Trunfo! \n");
+
+    int pontosturisticos;
+    char cidade[50], estado[30], codigo[10];
+    float area, pib, populacao;
+
+printf("Estado: \n");
+scanf("%s", &estado);
+
+printf("Código da Carta: \n");
+scanf("%s", &codigo);
+
+printf("Nome da Cidade: \n");
+scanf("%s", &cidade);
+
+printf("População: \n");
+scanf("%f", &populacao);
+
+printf("Área: \n");
+scanf("%f", &area);
+
+printf("PIB: \n");
+scanf("%f", &pib);
+
+printf("Número de Pontos Turísticos: \n");
+scanf("%i", &pontosturisticos);
+
+printf("Estado: %s \n", estado);
+printf("Código da Carta: %s \n", codigo);
+printf("Nome da Cidade: %s \n", cidade);
+printf("População: %.3f \n", populacao);
+printf("Área: %.3f \n", area);
+printf("PIB: %.3f \n", pib);
+printf("Pontos Turísticos: %i", pontosturisticos);
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -14,6 +50,7 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
