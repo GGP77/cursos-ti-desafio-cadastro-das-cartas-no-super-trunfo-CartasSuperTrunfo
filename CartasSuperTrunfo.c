@@ -42,6 +42,40 @@ printf("Área: %.3f \n", area);
 printf("PIB: %.3f \n", pib);
 printf("Pontos Turísticos: %i \n", pontosturisticos);
 
+printf("Carta 2! \n");
+
+int Pontosturisticos;
+    char Cidade[50], Estado[30], Codigo[10];
+    float Area, Pib, Populacao;
+
+printf("Estado: \n");
+scanf("%s", &Estado);
+
+printf("Código da Carta: \n");
+scanf("%s", &Codigo);
+
+printf("Nome da Cidade: \n");
+scanf("%s", &Cidade);
+
+printf("População: \n");
+scanf("%f", &Populacao);
+
+printf("Área: \n");
+scanf("%f", &Area);
+
+printf("PIB: \n");
+scanf("%f", &Pib);
+
+printf("Número de Pontos Turísticos: \n");
+scanf("%i", &Pontosturisticos);
+
+printf("Estado: %s \n", Estado);
+printf("Código da Carta: %s \n", Codigo);
+printf("Nome da Cidade: %s \n", Cidade);
+printf("População: %3.3f \n", Populacao);
+printf("Área: %,2f \n", Area);
+printf("PIB: %.3f \n", Pib);
+printf("Pontos Turísticos: %i \n", Pontosturisticos);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
