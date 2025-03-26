@@ -13,25 +13,25 @@ int main() {
     char cidade[50], estado[30], codigo[10];
     float area, pib, populacao;
 
-printf("Estado: \n");
+printf("Informe o Estado: \n");
 scanf("%s", &estado);
 
-printf("Código da Carta: \n");
+printf("Informe o Código da Carta: \n");
 scanf("%s", &codigo);
 
-printf("Nome da Cidade: \n");
+printf("Informe o Nome da Cidade: \n");
 scanf("%s", &cidade);
 
-printf("População: \n");
+printf("Informe a População da Cidade: \n");
 scanf("%f", &populacao);
 
-printf("Área: \n");
+printf("Informe a Área da Cidade: \n");
 scanf("%f", &area);
 
-printf("PIB: \n");
+printf("Informe o PIB da Cidade: \n");
 scanf("%f", &pib);
 
-printf("Número de Pontos Turísticos: \n");
+printf("Informe o Número de Pontos Turísticos da Cidade: \n");
 scanf("%i", &pontosturisticos);
 
 printf("Estado: %s \n", estado);
@@ -42,38 +42,36 @@ printf("Área: %.3f \n", area);
 printf("PIB: %.3f \n", pib);
 printf("Pontos Turísticos: %i \n", pontosturisticos);
 
-printf("Carta 2! \n");
-
-int Pontosturisticos;
+    int Pontosturisticos, Populacao;
     char Cidade[50], Estado[30], Codigo[10];
-    float Area, Pib, Populacao;
+    float Area, Pib;
 
-printf("Estado: \n");
+printf("Informe o Estado: \n");
 scanf("%s", &Estado);
 
-printf("Código da Carta: \n");
+printf("Informe o Código da Carta: \n");
 scanf("%s", &Codigo);
 
-printf("Nome da Cidade: \n");
+printf("Informe o Nome da Cidade: \n");
 scanf("%s", &Cidade);
 
-printf("População: \n");
-scanf("%f", &Populacao);
+printf("Informe a População da Cidade: \n");
+scanf("%d", &Populacao);
 
-printf("Área: \n");
+printf("Informe a Área da Cidade: \n");
 scanf("%f", &Area);
 
-printf("PIB: \n");
+printf("Informe o PIB da Cidade: \n");
 scanf("%f", &Pib);
 
-printf("Número de Pontos Turísticos: \n");
+printf("Informe o Número de Pontos Turísticos da Cidade: \n");
 scanf("%i", &Pontosturisticos);
 
 printf("Estado: %s \n", Estado);
 printf("Código da Carta: %s \n", Codigo);
 printf("Nome da Cidade: %s \n", Cidade);
-printf("População: %3.3f \n", Populacao);
-printf("Área: %,2f \n", Area);
+printf("População: %d \n", Populacao);
+printf("Área: %.2f \n", Area);
 printf("PIB: %.3f \n", Pib);
 printf("Pontos Turísticos: %i \n", Pontosturisticos);
 
